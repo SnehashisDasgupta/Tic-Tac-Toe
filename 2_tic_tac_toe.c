@@ -37,7 +37,7 @@ int main()
         {
             printf("Invalid option !");
             player--;
-            getch();
+            
         }
         i=CheckWin();
         player++;  
@@ -48,7 +48,7 @@ int main()
     printf("==> Player %d won !",--player);
     else
         printf("==> Game Draw");
-    getch();
+    
 
     return 0;
 }
